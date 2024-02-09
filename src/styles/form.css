@@ -1,0 +1,24 @@
+@tailwind base;
+
+@layer base {
+    .label_auth {
+        @apply border border-blue-300 rounded-lg flex flex-col relative px-2 bg-transparent
+    }
+
+    .input_auth {
+        @apply outline-none bg-transparent px-2 h-10 w-[23rem]
+    }
+
+    .input_auth::placeholder {
+        color: #000;
+        font-size: 0.65rem;
+    }
+
+    .title_auth {
+        @apply bg-slate-500 px-2 text-[0.65rem] w-12 absolute bottom-8
+    }
+
+    .btn_auth {
+        @apply p-1 bg-blue-500 rounded-lg text-white
+    }
+}
